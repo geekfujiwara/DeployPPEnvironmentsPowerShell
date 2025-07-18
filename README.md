@@ -14,14 +14,15 @@ CSV ファイルのパスは以下の通りです。PowerShellファイルと同
 
 ```powershell
 $Datapath = ".\userlist.csv"
-
+```
 
 ## 📁 CSVファイルのフォーマット例
 
+```csv
 account_UPN,account_pw,env_name
 user1@example.com,password123,Environment A
 user2@example.com,password456,Environment B
-
+```
 
 ## 📚 参考情報
 

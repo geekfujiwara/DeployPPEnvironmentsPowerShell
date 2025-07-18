@@ -1,0 +1,2 @@
+# DeployPPEnvironmentsPowerShell
+Power Platform 環境をデプロイするPowerShellスクリプト

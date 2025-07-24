@@ -10,5 +10,5 @@ foreach($Data in $Datas){
     #接続アカウント追加
     Add-PowerAppsAccount -Endpoint "prod" -Username $Data.account_UPN -Password $PW
     #新規環境作成
-    New-AdminPowerAppEnvironment -DisplayName $Data.env_name -ProvisionDatabase -Location japan -LanguageName 1041  -CurrencyName JPY -EnvironmentSku trial -WaitUntilFinished $false 
+    New-AdminPowerAppEnvironment -DisplayName $Data.env_name -ProvisionDatabase -Location unitedstates -LanguageName 1041  -CurrencyName JPY -EnvironmentSku developer -WaitUntilFinished $false 
 }

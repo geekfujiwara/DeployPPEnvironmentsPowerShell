@@ -54,9 +54,7 @@ user2@example.com,password456,Environment B
 | 地域名           | コード（`-Location` に指定） |
 |------------------|-----------------------------|
 | 日本             | `japan`                     |
-| アメリカ（中部） | `unitedstates`              |
-| アメリカ（西部） | `unitedstateswest`          |
-| アメリカ（東部） | `unitedstateseast`          |
+| アメリカ | `unitedstates`              |
 | カナダ           | `canada`                    |
 | イギリス         | `unitedkingdom`             |
 | オーストラリア   | `australia`                 |
